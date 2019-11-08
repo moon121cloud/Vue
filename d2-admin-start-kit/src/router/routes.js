@@ -77,6 +77,42 @@ const frameIn = [
         },
         component: _import('pms/sys/menu/index.vue')
       },
+      {
+        path: '/base/area',
+        name: '/base/area',
+        meta: {
+          title: '小区管理',
+          auth: true
+        },
+        component: _import('pms/base/area/index.vue')
+      },
+      {
+        path: '/base/building',
+        name: '/base/building',
+        meta: {
+          title: '楼栋管理',
+          auth: true
+        },
+        component: _import('pms/base/building/index.vue')
+      },
+      {
+        path: '/base/room',
+        name: '/base/room',
+        meta: {
+          title: '套户管理',
+          auth: true
+        },
+        component: _import('pms/base/room/index.vue')
+      },
+      {
+        path: '/base/owner',
+        name: '/base/owner',
+        meta: {
+          title: '业主管理',
+          auth: true
+        },
+        component: _import('pms/base/owner/index.vue')
+      },
       // 系统 前端日志
       {
         path: 'log',
